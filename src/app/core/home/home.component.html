@@ -1,5 +1,27 @@
-<div class="container d-flex justify-content-center" style="border: 1px red solid;">
-    <div class="" style="border: 1px blue solid;">
-        <span>HOLA</span>
+<div class="container d-flex justify-content-center text-white;"
+    style="height: 100vh; width: 100vh; align-items: center; background-color: #eeeeee;">
+    <div class="text-center shadow bg-white rounded m-0" style="height: 80vh; width: 65vh; align-items: center;">
+        <!-- Imagen -->
+        <div class="m-5">
+            <img src="assets/foto.jpeg" alt="" width="300px" style="border: 9px solid #000; border-radius: 50%;">
+        </div>
+        <!-- Nombre -->
+        <div class="m-5">
+            <h2 class="font-monospace fw-bold ">VALENTINA TELLEZ</h2>
+        </div>
+        <!-- Skills -->
+        <div class="m-5" style="">
+            <div *ngFor="let item of [1,2,3]" class="row">
+                <div class="col-6">ANGULAR</div>
+                <div class="col-6">XXXXXXXXXX</div>
+            </div>
+        </div>
+        <!-- CV -->
+        <div class="m-5" style="">
+            <button class="btn btn-dark">
+                DOWNLOAD CV
+            </button>
+        </div>
     </div>
+
 </div>
