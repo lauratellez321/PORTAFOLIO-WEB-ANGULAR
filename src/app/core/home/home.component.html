@@ -1,194 +1,181 @@
-<!-- <header class="d-flex justify-content-center align-items-center p-3 bg-dark" style=" width: 100%;">
-    <div class="logo">
-            <img src="logo.png" alt="Logo" class="img-fluid" style="max-width: 150px;">
-        </div>
+<div style="background: rgb(2,0,36); background: linear-gradient(180deg, rgba(2,0,36,1) 0%, #4d0979 100%);">
 
-    <nav class="nav">
-        <ul class="list-unstyled d-flex justify-content-center align-items-center p-0 m-0 gap-3">
-            <li><a href="#home" class="text-white text-decoration-none">Home</a></li>
-            <li><a href="#skills" class="text-white text-decoration-none">Skills</a></li>
-            <li><a href="#about" class="text-white text-decoration-none">About</a></li>
-            <li><a href="#contact" class="text-white text-decoration-none">Contact</a></li>
-        </ul>
-    </nav>
+    <app-header></app-header>
+    <div class="container-fluid vh-100 d-flex flex-column justify-content-center align-items-center text-center">
+        <section class="col-4 py-5 d-flex flex-column justify-content-center align-items-center bg-light rounded shadow"
+            style="min-width: 500px;">
+            <div class="d-flex justify-content-center">
+                <img src="assets/foto.jpg" alt="Valentina Téllez" class="rounded-circle border" width="250px"
+                    style="border: 12px solid #000;">
+            </div>
+            <h1 class="font-monospace mt-3 fw-bold text-center text-black">VALENTINA TELLEZ</h1>
+            <h4 class="font-monospace mt-3 fw-bold text-center text-black">SOFTWARE DEVELOPER</h4>
 
-</header> -->
+            <div class="d-flex justify-content-center mt-3">
+                <a href="https://www.linkedin.com/in/laura-valentina-tellez-cuellar/" target="_blank" class="mx-1">
+                    <i style="color: #400b63" class="fab fa-linkedin fa-3x"></i>
+                </a>
+                <a href="https://github.com/lauratellez321" target="_blank" class="mx-2">
+                    <i style="color: #400b63" class="fab fa-github fa-3x"></i>
+                </a>
+            </div>
+        </section>
+    </div>
 
+    <div class="d-flex flex-column justify-content-center align-items-center text-center row">
+        <!-- Sección de Habilidades -->
+        <section class="col-8 my-3 p-5 bg-light rounded row">
+            <h3 class="col-12 font-monospace fw-bold text-center mb-4 text-black">Skills</h3>
 
-<div class="container-fluid vh-100 d-flex flex-column justify-content-center align-items-center text-center">
-    <section class="col-4 py-5 d-flex flex-column justify-content-center align-items-center bg-light rounded shadow"
-        style="min-width: 500px;">
-        <div class="d-flex justify-content-center">
-            <img src="assets/foto.jpg" alt="Valentina Téllez" class="rounded-circle border" width="250px"
-                style="border: 12px solid #000;">
-        </div>
-        <h1 class="font-monospace mt-3 fw-bold text-center text-black">VALENTINA TELLEZ</h1>
-        <h4 class="font-monospace mt-3 fw-bold text-center text-black">SOFTWARE DEVELOPER</h4>
+            <div class="container">
+                <div class="row justify-content-center">
 
-        <div class="d-flex justify-content-center mt-3">
-            <a href="https://www.linkedin.com/in/laura-valentina-tellez-cuellar/" target="_blank" class="mx-1">
-                <i style="color: #400b63" class="fab fa-linkedin fa-3x"></i>
-            </a>
-            <a href="https://github.com/lauratellez321" target="_blank" class="mx-2">
-                <i style="color: #400b63" class="fab fa-github fa-3x"></i>
-            </a>
-        </div>
-    </section>
-</div>
-
-<div class="d-flex flex-column justify-content-center align-items-center text-center row">
-    <!-- Sección de Habilidades -->
-    <section class="col-8 my-3 p-5 bg-light rounded row">
-        <h3 class="col-12 font-monospace fw-bold text-center mb-4 text-black">Skills</h3>
-
-        <div class="container">
-            <div class="row justify-content-center">
-
-                <div class="col-md-3 col-sm-6 mb-4 d-flex justify-content-center">
-                    <div class="progress java d-flex align-items-center justify-content-center"
-                        style="position: relative; width: 100px; height: 100px; border-radius: 50%; background-color: #ffffff;">
-                        <span class="progress-left">
-                            <span class="progress-bar"></span>
-                        </span>
-                        <span class="progress-right">
-                            <span class="progress-bar"></span>
-                        </span>
-                        <div class="my-4 d-flex justify-content-center">
-                            <img src="assets/java.png" class="rounded-circle" width="40px">
+                    <div class="col-md-3 col-sm-6 mb-4 d-flex justify-content-center">
+                        <div class="progress java d-flex align-items-center justify-content-center"
+                            style="position: relative; width: 100px; height: 100px; border-radius: 50%; background-color: #ffffff;">
+                            <span class="progress-left">
+                                <span class="progress-bar"></span>
+                            </span>
+                            <span class="progress-right">
+                                <span class="progress-bar"></span>
+                            </span>
+                            <div class="my-4 d-flex justify-content-center">
+                                <img src="assets/java.png" class="rounded-circle" width="40px">
+                            </div>
+                            <div class="progress-value"></div>
                         </div>
-                        <div class="progress-value"></div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-4 d-flex justify-content-center">
+                        <div class="progress angular d-flex align-items-center justify-content-center"
+                            style="position: relative; width: 100px; height: 100px; border-radius: 50%; background-color: #ffffff;">
+                            <span class="progress-left">
+                                <span class="progress-bar"></span>
+                            </span>
+                            <span class="progress-right">
+                                <span class="progress-bar"></span>
+                            </span>
+                            <div class="my-4 d-flex justify-content-center">
+                                <img src="assets/angular.png" class="rounded-circle" width="70px">
+                            </div>
+                            <div class="progress-value"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-4 d-flex justify-content-center">
+                        <div class="progress nodejs d-flex align-items-center justify-content-center"
+                            style="position: relative; width: 100px; height: 100px; border-radius: 50%; background-color: #ffffff;">
+                            <span class="progress-left">
+                                <span class="progress-bar"></span>
+                            </span>
+                            <span class="progress-right">
+                                <span class="progress-bar"></span>
+                            </span>
+                            <div class="my-4 d-flex justify-content-center">
+                                <img src="assets/nodejs.png" class="rounded-circle" width="55px">
+                            </div>
+                            <div class="progress-value"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-4 d-flex justify-content-center">
+                        <div class="progress mysqldb d-flex align-items-center justify-content-center"
+                            style="position: relative; width: 100px; height: 100px; border-radius: 50%; background-color: #ffffff;">
+                            <span class="progress-left">
+                                <span class="progress-bar"></span>
+                            </span>
+                            <span class="progress-right">
+                                <span class="progress-bar"></span>
+                            </span>
+                            <div class="my-4 d-flex justify-content-center">
+                                <img src="assets/mysqldb.png" class="rounded-circle" width="100px">
+                            </div>
+                            <div class="progress-value"></div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-md-3 col-sm-6 mb-4 d-flex justify-content-center">
-                    <div class="progress angular d-flex align-items-center justify-content-center"
-                        style="position: relative; width: 100px; height: 100px; border-radius: 50%; background-color: #ffffff;">
-                        <span class="progress-left">
-                            <span class="progress-bar"></span>
-                        </span>
-                        <span class="progress-right">
-                            <span class="progress-bar"></span>
-                        </span>
-                        <div class="my-4 d-flex justify-content-center">
-                            <img src="assets/angular.png" class="rounded-circle" width="70px">
-                        </div>
-                        <div class="progress-value"></div>
-                    </div>
-                </div>
+                <div class="row justify-content-center">
 
-                <div class="col-md-3 col-sm-6 mb-4 d-flex justify-content-center">
-                    <div class="progress nodejs d-flex align-items-center justify-content-center"
-                        style="position: relative; width: 100px; height: 100px; border-radius: 50%; background-color: #ffffff;">
-                        <span class="progress-left">
-                            <span class="progress-bar"></span>
-                        </span>
-                        <span class="progress-right">
-                            <span class="progress-bar"></span>
-                        </span>
-                        <div class="my-4 d-flex justify-content-center">
-                            <img src="assets/nodejs.png" class="rounded-circle" width="55px">
+                    <div class="col-md-3 col-sm-6 mb-4 d-flex justify-content-center">
+                        <div class="progress nodejs d-flex align-items-center justify-content-center"
+                            style="position: relative; width: 100px; height: 100px; border-radius: 50%; background-color: #ffffff;">
+                            <span class="progress-left">
+                                <span class="progress-bar"></span>
+                            </span>
+                            <span class="progress-right">
+                                <span class="progress-bar"></span>
+                            </span>
+                            <div class="my-4 d-flex justify-content-center">
+                                <img src="assets/mongoDB.png" class="rounded-circle" width="100px">
+                            </div>
+                            <div class="progress-value"></div>
                         </div>
-                        <div class="progress-value"></div>
                     </div>
-                </div>
 
-                <div class="col-md-3 col-sm-6 mb-4 d-flex justify-content-center">
-                    <div class="progress mysqldb d-flex align-items-center justify-content-center"
-                        style="position: relative; width: 100px; height: 100px; border-radius: 50%; background-color: #ffffff;">
-                        <span class="progress-left">
-                            <span class="progress-bar"></span>
-                        </span>
-                        <span class="progress-right">
-                            <span class="progress-bar"></span>
-                        </span>
-                        <div class="my-4 d-flex justify-content-center">
-                            <img src="assets/mysqldb.png" class="rounded-circle" width="100px">
+                    <div class="col-md-3 col-sm-6 mb-4 d-flex justify-content-center">
+                        <div class="progress git d-flex align-items-center justify-content-center"
+                            style="position: relative; width: 100px; height: 100px; border-radius: 50%; background-color: #ffffff;">
+                            <span class="progress-left">
+                                <span class="progress-bar"></span>
+                            </span>
+                            <span class="progress-right">
+                                <span class="progress-bar"></span>
+                            </span>
+                            <div class="my-4 d-flex justify-content-center">
+                                <img src="assets/git.png" class="rounded-circle" width="65px">
+                            </div>
+                            <div class="progress-value"></div>
                         </div>
-                        <div class="progress-value"></div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-4 d-flex justify-content-center">
+                        <div class="progress git d-flex align-items-center justify-content-center"
+                            style="position: relative; width: 100px; height: 100px; border-radius: 50%; background-color: #ffffff;">
+                            <span class="progress-left">
+                                <span class="progress-bar"></span>
+                            </span>
+                            <span class="progress-right">
+                                <span class="progress-bar"></span>
+                            </span>
+                            <div class="my-4 d-flex justify-content-center">
+                                <img src="assets/aws.png" class="rounded-circle" width="70px">
+                            </div>
+                            <div class="progress-value"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 mb-4 d-flex justify-content-center">
+                        <div class="progress java d-flex align-items-center justify-content-center"
+                            style="position: relative; width: 100px; height: 100px; border-radius: 50%; background-color: #ffffff;">
+                            <span class="progress-left">
+                                <span class="progress-bar"></span>
+                            </span>
+                            <span class="progress-right">
+                                <span class="progress-bar"></span>
+                            </span>
+                            <div class="my-4 d-flex justify-content-center">
+                                <img src="assets/docker.png" class="rounded-circle" width="100px">
+                            </div>
+                            <div class="progress-value"></div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="row justify-content-center">
+        </section>
 
-                <div class="col-md-3 col-sm-6 mb-4 d-flex justify-content-center">
-                    <div class="progress nodejs d-flex align-items-center justify-content-center"
-                        style="position: relative; width: 100px; height: 100px; border-radius: 50%; background-color: #ffffff;">
-                        <span class="progress-left">
-                            <span class="progress-bar"></span>
-                        </span>
-                        <span class="progress-right">
-                            <span class="progress-bar"></span>
-                        </span>
-                        <div class="my-4 d-flex justify-content-center">
-                            <img src="assets/mongoDB.png" class="rounded-circle" width="100px">
-                        </div>
-                        <div class="progress-value"></div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-6 mb-4 d-flex justify-content-center">
-                    <div class="progress git d-flex align-items-center justify-content-center"
-                        style="position: relative; width: 100px; height: 100px; border-radius: 50%; background-color: #ffffff;">
-                        <span class="progress-left">
-                            <span class="progress-bar"></span>
-                        </span>
-                        <span class="progress-right">
-                            <span class="progress-bar"></span>
-                        </span>
-                        <div class="my-4 d-flex justify-content-center">
-                            <img src="assets/git.png" class="rounded-circle" width="65px">
-                        </div>
-                        <div class="progress-value"></div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-6 mb-4 d-flex justify-content-center">
-                    <div class="progress git d-flex align-items-center justify-content-center"
-                        style="position: relative; width: 100px; height: 100px; border-radius: 50%; background-color: #ffffff;">
-                        <span class="progress-left">
-                            <span class="progress-bar"></span>
-                        </span>
-                        <span class="progress-right">
-                            <span class="progress-bar"></span>
-                        </span>
-                        <div class="my-4 d-flex justify-content-center">
-                            <img src="assets/aws.png" class="rounded-circle" width="70px">
-                        </div>
-                        <div class="progress-value"></div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-6 mb-4 d-flex justify-content-center">
-                    <div class="progress java d-flex align-items-center justify-content-center"
-                        style="position: relative; width: 100px; height: 100px; border-radius: 50%; background-color: #ffffff;">
-                        <span class="progress-left">
-                            <span class="progress-bar"></span>
-                        </span>
-                        <span class="progress-right">
-                            <span class="progress-bar"></span>
-                        </span>
-                        <div class="my-4 d-flex justify-content-center">
-                            <img src="assets/docker.png" class="rounded-circle" width="100px">
-                        </div>
-                        <div class="progress-value"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <!-- Sección de Botón Descargar CV -->
-    <section class="col-4 mb-5 p-5 bg-light row align-items-center justify-content-center rounded"
-        style="border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);">
-        <div class="col-12 text-center">
-            <h3 class="font-monospace fw-bold mb-4 text-black">Hechale un vistazo a mi CV!
-            </h3>
-            <button (click)="viewPdf()">Download CV</button>
-            <!-- <button class="btn btn-primary btn-lg px-5 py-3 shadow-lg rounded-pill">   
+        <!-- Sección de Botón Descargar CV -->
+        <section class="col-4 mb-5 p-5 bg-light row align-items-center justify-content-center rounded"
+            style="border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);">
+            <div class="col-12 text-center">
+                <h3 class="font-monospace fw-bold mb-4 text-black">Hechale un vistazo a mi CV!
+                </h3>
+                <button (click)="viewPdf()">Download CV</button>
+                <!-- <button class="btn btn-primary btn-lg px-5 py-3 shadow-lg rounded-pill">   
                         i class="fas fa-download me-2"></i> Download CV
                 </button> -->
-        </div>
-    </section>
+            </div>
+        </section>
+    </div>
 </div>
